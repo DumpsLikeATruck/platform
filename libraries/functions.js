@@ -83,19 +83,6 @@ function stringToInteger(str) {
     return integer;
 }
 
-//Sort Units
-function sortEntriesDescending() {
-    const list = document.getElementById("entryList");
-    const entries = Array.from(list.querySelectorAll("[data-date]"));
-    entries.sort((a, b) => {
-        const dateA = parseInt(a.getAttribute("data-date"), 10);
-        const dateB = parseInt(b.getAttribute("data-date"), 10);
-        return dateB - dateA;
-    });
-
-    entries.forEach(entry => list.appendChild(entry));
-}
-
 //Format phone
 function formatPhone(phoneNumber) {
     // Use a regular expression to remove all non-numeric characters
