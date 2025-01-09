@@ -125,4 +125,10 @@ function hideWithDelay(element, duration = 250) {
     setTimeout(() => fadeOut(element, duration), delay);
 }
 
+//Format phone
+function formatPhone(phoneNumber) {
+    // Use a regular expression to remove all non-numeric characters
+    return phoneNumber.replace(/\D/g, '');
+}
+
 //
