@@ -1,0 +1,39 @@
+.loader {
+	display: flex;
+}
+  
+.pageloader {
+	display: flex;
+}
+
+.depositunit {
+	display: none;
+}
+
+.listingerror {
+	display: flex;
+}
+
+.zip-label {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #000; /* Black text color for better readability */
+}
+
+.zip-label strong {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.tabdisabled {
+   pointer-events: none;
+   cursor: default;
+}
+
+[class*="ghost"] {
+  cursor: default;
+  pointer-events: none;
+}
