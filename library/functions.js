@@ -1,4 +1,5 @@
 //Master Function Library
+//Updated 1/9/2025 @ 10:00 AM Pacific
 
 //Get Today's Date
 function getTodaysDate() {
