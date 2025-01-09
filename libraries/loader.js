@@ -23,3 +23,13 @@ function hideWithDelay(element, duration = 250) {
     const delay = Math.max(0, 1100 - elapsedTime);
     setTimeout(() => fadeOut(element, duration), delay);
 }
+
+async function fetchData(apiUrl) {
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error('Failed to fetch');
+        return await response.json();
+    } catch (error) {
+        console.error(error);
+    }
+}
