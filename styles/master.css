@@ -37,3 +37,16 @@
   cursor: default;
   pointer-events: none;
 }
+
+.chatbox::-webkit-scrollbar {
+	display: none; /* For Chrome, Safari, and Edge */
+}
+
+.chatbox {
+	-ms-overflow-style: none; /* For Internet Explorer and Edge */
+	scrollbar-width: none; /* For Firefox */
+}
+    
+.chatfade {
+	pointer-events: none;
+}
