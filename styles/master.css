@@ -50,3 +50,9 @@
 .chatfade {
 	pointer-events: none;
 }
+
+.hideloader {
+  opacity: 0;
+  transition: opacity 1s ease-out, visibility 1s ease-out;
+  visibility: hidden;
+}
