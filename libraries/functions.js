@@ -88,15 +88,3 @@ function formatPhone(phoneNumber) {
     // Use a regular expression to remove all non-numeric characters
     return phoneNumber.replace(/\D/g, '');
 }
-
-function formatPhoneInput(input) {
-  const cleaned = ("" + input).replace(/\D/g, "");
-  const match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
-
-  if (match) {
-    return `(${match[1]}) ${match[2]}-${match[3]}`;
-  }
-  return cleaned;
-}
-
-//
