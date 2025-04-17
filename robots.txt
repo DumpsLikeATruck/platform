@@ -1,0 +1,11 @@
+Sitemap: https://www.dumpslikeatruck.app/sitemap.xml
+
+User-agent: *
+Disallow: /
+Disallow: /_toddle
+Disallow: /_toddle/
+Disallow: /.toddle
+Disallow: /.toddle/
+Disallow: /_api
+Disallow: /_api/
+Disallow: /cdn-cgi/
